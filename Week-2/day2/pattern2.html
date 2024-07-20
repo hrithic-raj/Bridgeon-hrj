@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pattern2</title>
+</head>
+<body>
+    <pre id="pattern"></pre>
+    <script>
+        let pattern='';
+        for(let i = 5; i >= 1; i--) {   // i = 5-1
+            for(let j=1;j<=9;j++) {     // j = 1-9
+                if(j>=6-i && j<=4+i){
+                    if(j===6-i || j===4+i || i===5){  
+                        pattern +='*';
+                    }
+                    else{
+                        pattern +=' ';
+                    }
+                }
+                else{
+                    pattern +=' ';
+                }
+            }pattern += '\n';
+            
+        }document.getElementById('pattern').innerHTML=pattern;
+    </script>
+</body>
+</html>

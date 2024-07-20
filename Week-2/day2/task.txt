@@ -1,0 +1,50 @@
+Day 10
+
+● Typeof operator
+● Coercion or Type conversion
+● Switch case
+****************************************● Ternary Operator
+● Loop
+***************************○ For loop
+○ While loop
+○ Do while loop
+
+Tasks
+● Pattern 5 questions
+
+
+1. Write a program to print the following star pattern 
+ 
+         *  
+       * * *  
+     * * * * *  
+   * * * * * * * 
+ * * * * * * * * * 
+ 
+2. Write a program to print the following star pattern  
+    * * * * * * * * * 
+    *              *  
+       *         *  
+          *    *  
+             * 
+ 
+3. Print the following pattern. 
+A 
+A B 
+A B C 
+A B C D 
+A B C D E 
+ 
+ 
+4. Print the following pattern. 
+ 1 
+ 2 3 
+ 4 5 6 
+ 7 8 9 10 
+ 
+5. Print the following pattern. 
+1 
+123 
+12345 
+1234567 
+123456789 

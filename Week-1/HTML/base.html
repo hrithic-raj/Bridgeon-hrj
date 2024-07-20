@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRJ</title>
+    <link rel="icon" href="img.png">
+    <style>
+      *{
+        color: white;
+      }
+     h1{
+          border: 2px solid tomato;
+          padding: 30px;
+        }
+        .p1{
+            border: 2px solid powderblue;
+            margin: 2px;
+        }
+        body{
+            background-image: url('img1.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        table {
+          border-collapse: collapse;
+          width: 50%;
+          margin: auto;
+        }
+        
+        td, th {
+          border: 1px solid #393333;
+          text-align: left;
+          padding: 8px;
+          font-size: large;
+        }
+        th{
+            background-color: #DEB887;
+            text-align: center;
+            font-weight: 20px;
+        }
+        tr:hover {
+            background-color: #D6EEEE;
+        }
+        
+        .container{
+            text-align: center;
+        }
+        .hl{
+            color: red;
+            font-size: larger;
+            font-weight: 2px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style=" font-family: 'Courier New', Courier, monospace; color: pink; text-align: center;">safi college</h1>
+    <hr>
+    <br><br>
+    <p style="text-align: center;"> <em>safi institute of adanced study</em> is very <strong>bad college</strong> to study CS 
+        those who <q>graduated</q> from there is now working in some <mark>chaya kada</mark>
+        I have friends that have lots of <del>back papers</del>[me<sub>0</sub>,abhay<sub>1</sub>]
+
+        <p1 style="color: hsla(0, 100%, 50%, 0.5)">This is a paragraph.</p1>
+    </p>
+    <a href="img.png" target="_blank"><center>image in new window</center></a>
+    <pre style="text-align: center;">
+        
+        The truth is, I’ve never cared for the National
+        Anthem. If you think about it, it’s not a good
+        song. Too high for most of us with “the rockets
+        red glare” and then there are the bombs.
+        (Always, always, there is war and bombs.)
+        Once,...
+        <a href="mailto:hrithicraj730@gmail.com" title="mail hrj">mail to hrj</a>
+
+    </pre>
+    <p style="background-color:rgb(0,0, 255)">This is a paragraph.</p>
+<br><hr><br>
+    <h2>A Multi Level List</h2>
+
+<ul>
+  <li>HOME</li>
+  <li>RECIPES
+    <ul>
+      <li>BREAKFAST
+        <UL>
+            <li>DOSA RECIPES</li>
+            <LI>SANDWICH</LI>
+            <LI>PANEER RECIPES</LI>
+        </UL>
+      </li>
+      <li>DINNER
+        <UL>
+            <LI>ROTI</LI>
+            <LI>SABZI</LI>
+            <LI>SOUP</LI>
+        </UL>
+      </li>
+      <li>SNAKS
+        <UL>
+            <LI>STARTERS</LI>
+            <LI>STREET FOOD</LI>
+            <LI>CHAATS</LI>
+        </UL>
+      </li>
+      <li>DESSERTS
+        <Ul>
+          <li>SWEETS</li>
+          <LI>SALADS</LI>
+          <LI>MILKSHAKES</LI>
+        </Ul>
+      </li>
+    </ul>
+  </li>
+  <li>CONTACT US</li>
+</ul>
+<br><hr><br>
+
+    <table>
+        <tr>
+          <th colspan="6" style="background-color: #5E9ea0;">Time Table</th>
+        </tr>
+        <tr>
+          <th rowspan="6">Hours</th>
+          <th>Mon</th>
+          <th>Tue</th>
+          <th>Wed</th>
+          <th>Thu</th>
+          <th>Fri</th>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Arts</td>
+        </tr>
+        <tr>
+          <td>Social</td>
+          <td>History</td>
+          <td>English</td>
+          <td>Social</td>
+          <td>Sports</td>
+        </tr>
+        <tr>
+          <th colspan="5" style="background-color: tomato;">Lunch</th>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td>Maths</td>
+          <td>Science</td>
+          <td>Maths</td>
+          <td rowspan="2">Project</td>
+        </tr>
+        <tr>
+          <td>Social</td>
+          <td>History</td>
+          <td>English</td>
+          <td>Social</td>
+        </tr>
+        
+      </table>
+<br><hr><br>
+      <div class="container">
+        <h3 class="hl">Personal Details</h3>
+        <form action="#">
+            
+            <label>Name : </label>
+            <input type="text" name="name" required><br><br>
+            
+            <label>Password :</label>
+            <input type="password" name="pass" id="pass" required><br><br>
+            
+            <label>E-mail id :</label>
+            <input type="email" name="email" id="email" required><br><br>
+            
+            <label>Gender :</label>
+            <input type="radio" id="male" value="male" name="gender"><label>Male</label>
+            <input type="radio" id="female" value="female" name="gender"><label>Female</label><br><br>
+            
+            <label>Contact :</label>
+            <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/> 
+            <input type="text" name="contact" id="contact" size="10" required >
+           
+            <h3 class="hl">Educational Qualification</h3><br>
+            
+            <label>Degree :</label>
+            <select name="degree" id="degree" style="width: 165px;">
+                <option value="" style="text-align: center;">--Select group--</option>
+                <option value="cs">Bsc Computer Science</option>
+                <option value="bca">Bacholer of Computer Application</option>
+            </select><br><br>
+            
+            <label>Engeneering :</label>
+            <select name="degree" id="degree" >
+                <option value="" style="text-align: center;">--Select group--</option>
+                <option value="cs">Computer Science</option>
+                <option value="mech">Mechanical Engeneering</option>
+            </select><br><br>
+    
+            <label>Hobbies :</label>
+            <input type="checkbox" name="chess" id="chess">
+            <label>Playing chess</label>
+            <input type="checkbox" name="reading" id="reading">
+            <label>Reading books</label><br>
+    
+            <h3 class="hl">Address</h3><br>
+    
+            <textarea cols="40" rows="7" value="address" required>  
+            </textarea><br><br>
+    
+            <label>Attach Resume :</label>
+            <input type="file" id="resume" name="resume"><br><br>
+            
+            <input type="submit">
+            <input type="reset">
+        </form>
+       </div>
+       <br><hr><br>
+</body>
+</html>

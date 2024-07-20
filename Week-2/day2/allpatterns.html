@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Patterns</title>
+    <style>
+        pre {
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pattern Printing in JavaScript</h1>
+    <pre id="pattern1"></pre>
+    <pre id="pattern2"></pre>
+    <pre id="pattern3"></pre>
+    <pre id="pattern4"></pre>
+    <pre id="pattern5"></pre>
+
+    <script>
+        // Pattern 1
+        let pattern1 = '';
+        for (let i = 1; i <= 5; i++) {
+            for (let j = 1; j <= 9; j++) {
+                if (j >= 6 - i && j <= 4 + i) {
+                    pattern1 += '*';
+                } else {
+                    pattern1 += ' ';
+                }
+            }
+            pattern1 += '\n';
+        }
+        document.getElementById('pattern1').innerText = pattern1;
+
+        // Pattern 2
+        let pattern2 = '';
+        for (let i = 5; i >= 1; i--) {
+            for (let j = 1; j <= 9; j++) {
+                if (j >= 6 - i && j <= 4 + i) {
+                    if (j === 6 - i || j === 4 + i || i === 5) {
+                        pattern2 += '*';
+                    } else {
+                        pattern2 += ' ';
+                    }
+                } else {
+                    pattern2 += ' ';
+                }
+            }
+            pattern2 += '\n';
+        }
+        document.getElementById('pattern2').innerText = pattern2;
+
+        // Pattern 3
+        let pattern3 = '';
+        for (let i = 1; i <= 5; i++) {
+            for (let j = 0; j < i; j++) {
+                pattern3 += String.fromCharCode(65 + j) + ' ';
+            }
+            pattern3 += '\n';
+        }
+        document.getElementById('pattern3').innerText = pattern3;
+
+        // Pattern 4
+        let pattern4 = '';
+        let num = 1;
+        for (let i = 1; i <= 4; i++) {
+            for (let j = 1; j <= i; j++) {
+                pattern4 += num + ' ';
+                num++;
+            }
+            pattern4 += '\n';
+        }
+        document.getElementById('pattern4').innerText = pattern4;
+
+        // Pattern 5
+        let pattern5 = '';
+        for (let i = 1; i <= 4; i++) {
+            for (let j = 1; j <= i * 2 - 1; j++) {
+                pattern5 += j;
+            }
+            pattern5 += '\n';
+        }
+        document.getElementById('pattern5').innerText = pattern5;
+    </script>
+</body>
+</html>

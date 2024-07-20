@@ -1,0 +1,28 @@
+Day 12
+
+● Js String
+● Js String methods
+        • split ~
+        • slice ~
+        • substring ~
+        • substr ~
+        • toUpperCase ~
+        • toLowerCase ~
+        • concat  ~
+        • charAt ~
+        • replace ~
+        • trim ~
+        • padStart() ~
+        • padEnd() ~
+
+
+● Js String search methods
+        • indexOf() ~
+        • lastIndexOf() ~
+        • search() ~
+        • match() ~
+        • includes() ~
+        • startsWith() ~
+        • endsWith() ~
+
+● Template literals

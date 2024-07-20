@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid Example</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-rows: 2fr 6fr 2fr;
+      grid-template-columns: 1fr 1fr 1fr; /* Three columns of equal width */
+      grid-gap: 10px; /* Gap between grid items */
+      background-color: #f565f5f0;
+      padding: 20px;
+      justify-content:;
+
+    }
+    .container[class*="i"] {
+      background-color: #3498db;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      
+    }
+    .i-header{
+        border:3px solid red;
+        grid-column: 1/4;  
+    }
+    .i-menu{
+        border: 3px solid red;
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+    .i-main{
+        border: 3px solid red;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .i-right{
+        border: 3px solid red;
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    .i-footer{
+        border: 3px solid red;
+        grid-column: 2/4;
+        grid-row: 3/4;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="i-header">header</div>
+    <div class="i-menu">menu</div>
+    <div class="i-main">main</div>
+    <div class="i-right">right</div>
+    <div class="i-footer">footer</div>
+  </div>
+</body>
+</html>

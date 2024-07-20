@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript var Scope Example</title>
+</head>
+<body>
+    <h1>JavaScript var Scope Example</h1>
+    <p id="output"></p>
+
+    <script>
+        function testVar() {
+            if (true) {
+                var x = 10; // var is function-scoped
+                let y = 20; // let is block-scoped
+                const z = 30; // const is block-scoped
+                console.log("Inside block: x =", x); // Output: 10
+                console.log("Inside block: y =", y); // Output: 20
+                console.log("Inside block: z =", z); // Output: 30
+            }
+
+            console.log("Outside block: x =", x);
+            console.log("Inside block: y =", y); // Output: 10 (var is accessible here)
+            // The following lines would cause an error because y and z are block-scoped
+            // console.log("Outside block: y =", y); // Uncaught ReferenceError: y is not defined
+            // console.log("Outside block: z =", z); // Uncaught ReferenceError: z is not defined
+        }
+
+        testVar();
+
+        document.getElementById("output").innerText = "Check the console for output.";
+    </script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String Methods Examples</title>
+</head>
+<body>
+    <h1>JavaScript String Methods Examples</h1>
+
+    <h2>charAt()</h2>
+    <p id="charAt"></p>
+
+    <h2>charCodeAt()</h2>
+    <p id="charCodeAt"></p>
+
+    <h2>concat()</h2>
+    <p id="concat"></p>
+
+    <h2>includes()</h2>
+    <p id="includes"></p>
+
+    <h2>indexOf()</h2>
+    <p id="indexOf"></p>
+
+    <h2>lastIndexOf()</h2>
+    <p id="lastIndexOf"></p>
+
+    <h2>slice()</h2>
+    <p id="slice"></p>
+
+    <h2>substring()</h2>
+    <p id="substring"></p>
+
+    <h2>substr()</h2>
+    <p id="substr"></p>
+
+    <h2>replace()</h2>
+    <p id="replace"></p>
+
+    <h2>replaceAll()</h2>
+    <p id="replaceAll"></p>
+
+    <h2>split()</h2>
+    <p id="split"></p>
+
+    <h2>toLowerCase()</h2>
+    <p id="toLowerCase"></p>
+
+    <h2>toUpperCase()</h2>
+    <p id="toUpperCase"></p>
+
+    <h2>trim()</h2>
+    <p id="trim"></p>
+
+    <h2>padStart()</h2>
+    <p id="padStart"></p>
+
+    <h2>padEnd()</h2>
+    <p id="padEnd"></p>
+
+    <h2>repeat()</h2>
+    <p id="repeat"></p>
+
+    <script>
+        // charAt()
+        let str1 = "Hello, World! ";
+        document.getElementById("charAt").innerText = `str1.charAt(7): ${str1.charAt(7)}`;
+
+        // charCodeAt()
+        document.getElementById("charCodeAt").innerText = `str1.charCodeAt(7): ${str1.charCodeAt(7)}`;
+
+        // concat()
+        let str2 = "Hello";
+        let str3 = "World";
+        document.getElementById("concat").innerText = `str2.concat(", ", str3, "!"): ${str2.concat(", ", str3, "!")}`;
+
+        // includes()
+        document.getElementById("includes").innerText = `str1.includes("World"): ${str1.includes(3)}`;
+
+        // indexOf()
+        document.getElementById("indexOf").innerText = `str1.indexOf("o"): ${str1.indexOf("o",5)}`;
+
+        // lastIndexOf()
+        document.getElementById("lastIndexOf").innerText = `str1.lastIndexOf("o"): ${str1.lastIndexOf("o")}`;
+
+        // slice()
+        document.getElementById("slice").innerText = `str1.slice(7, 12): ${str1.slice(7, 12)}`;
+
+        // substring()
+        document.getElementById("substring").innerText = `str1.substring(7, 12): ${str1.substring(7, 12)}`;
+
+        // substr()
+        document.getElementById("substr").innerText = `str1.substr(7, 5): ${str1.substr(7, 5)}`;
+
+        // replace()
+        document.getElementById("replace").innerText = `str1.replace("World", "Universe"): ${str1.replace("World", "Universe")}`;
+
+        // replaceAll()
+        let str4 = "foo bar foo";
+        document.getElementById("replaceAll").innerText = `str4.replaceAll("foo", "baz"): ${str4.replaceAll("foo", "baz")}`;
+
+        // split()
+        let str5 = "a,b,c,d";
+        document.getElementById("split").innerText = `str5.split(","): ${str5.split(",")}`;
+
+        // toLowerCase()
+        let str6 = "HELLO WORLD";
+        document.getElementById("toLowerCase").innerText = `str6.toLowerCase(): ${str6.toLowerCase()}`;
+
+        // toUpperCase()
+        let str7 = "hello world";
+        document.getElementById("toUpperCase").innerText = `str7.toUpperCase(): ${str7.toUpperCase()}`;
+
+        // trim()
+        let str8 = "   Hello, World!   ";
+        document.getElementById("trim").innerText = `str8.trim(): '${str8.trim()}'`;
+
+        // padStart()
+        let str9 = "5";
+        document.getEle mentById("padStart").innerText = `str9.padStart(3, "0"): ${str9.padStart(3, "0")}`;
+
+        // padEnd()
+        let str10 = "5";
+        document.getElementById("padEnd").innerText = `str10.padEnd(3, "0"): ${str10.padEnd(3, "0")}`;
+
+        // repeat()
+        let str11 = "abc";
+        document.getElementById("repeat").innerText = `str11.repeat(3): ${str11.repeat(3)}`;
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practive patternns</title>
+</head>
+<body>
+    <pre id="ptn1"></pre>
+    <pre id="ptn1"></pre>
+    <pre id="ptn1"></pre>
+    <pre id="ptn1"></pre>
+    <pre id="ptn1"></pre>
+    <script>
+        let ptn='';
+        for(let i=1; i<=5; i++){
+                ptn += ' ';
+            for(let j=1;j<=i; j++){
+                ptn += '*';
+            }
+            ptn += '\n';
+        }
+        document.getElementById("ptn1").innerHTML=ptn;
+        
+    </script>
+</body>
+</html>

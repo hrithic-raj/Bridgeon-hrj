@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Website Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: #444;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .main-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+      grid-gap: 20px;
+      padding: 20px;
+    }
+    .product {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Shopping Website</h1>
+  </header>
+  <nav>
+    <a href="#"><button class="homeb"><img src="http://www.w3.org/2000/svg" alt=""></button> Home</a>
+    <a href="#">Products</a>
+    <a href="#">About Us</a>
+  </nav>
+  <div class="main-content">
+    <div class="product">
+      <h2>Product 1</h2>
+      <p>Description of Product 1</p>
+      <p>$19.99</p>
+    </div>
+    <div class="product">
+      <h2>Product 2</h2>
+      <p>Description of Product 2</p>
+      <p>$24.99</p>
+    </div>
+    <div class="product">
+      <h2>Product 3</h2>
+      <p>Description of Product 3</p>
+      <p>$29.99</p>
+    </div>
+    <!-- Add more products as needed -->
+  </div>
+  <footer>
+    <p>&copy; 2024 Our Shopping Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>

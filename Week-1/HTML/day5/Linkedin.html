@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkedin</title>
+    <link rel="icon" href="logo.png">
+    <style>
+        body{
+            background-color: #F4F2EE;
+        }
+        nav{
+            display: grid;
+            grid-template-columns:180px 0fr 1fr 1fr;
+            grid-template-rows: auto;
+            grid-gap: 10px;
+            background-color: white;
+            -ms-grid-row-align: start;
+        }
+        nav .logo{
+            width: 34px;
+        }
+        
+        nav .search-icon{
+            width: 20px;
+            padding: 0 5px;
+        }
+        nav.nav-left{
+            background: blue;
+            display: flex;
+            align-items: center;
+            border-radius: 4px;
+            padding: 5px;
+            width: 300px;
+        }
+        .nav-left input{
+            border: none;
+            outline: none;
+            flex: 1;
+            padding: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div></div>
+            <a href=""><img class="logo" src="logo.png" alt="logo"></a>
+            <div class="nav-left">
+                <span class="search-icon">&#x1F50E;</span>
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav-right">
+
+            </div>
+            
+        </nav>
+    </div>
+    
+</body>
+</html>
