@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Parameter Example</title>
+</head>
+<body>
+    <h1>Rest Parameter Example</h1>
+    <p>Check the console for results.</p>
+
+    <script>
+        // Function that uses rest parameters to accept any number of arguments
+        function sum(...numbers) {
+            return numbers.reduce((acc, curr) => acc + curr, 0);
+        }
+
+        // Testing the function with different numbers of arguments
+        console.log(sum(1, 2, 3));         // Output: 6
+        console.log(sum(1, 2, 3, 4, 5));   // Output: 15
+        console.log(sum(10, 20, 30));      // Output: 60
+        console.log(sum());                // Output: 0 (no arguments passed)
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+Day 14
+
+● Js Array 👍
+● Js Array methods 👍
+● Array Sort (Comaring Function)👍
+● For In Loop 👍
+● For Of Loop👍
+● Array map👍
+● Array filter👍
+● Array reduce👍
+● Array forEach👍
+● Arrow function (Just Understand)👍
+
+
+Day 15
+
+● Js Functions👍
+○ Function Declaration👍
+○ Return keyword👍
+○ Parameter vs Argument👍
+
+○ Anonymous function👍
+○ Arrow function👍
+○ Function expression👍
+○ What is scope? Function, Global, Block
+○ Lexical Environment or Lexical Scope
+○ Recursion👍
+
+○ Callback function
+○ IIFE or Self invoking function👍
+○ Rest parameter👍
+
+
+Day 16
+
+● Js object
+● What is ‘method’?
+● this keyword
+● Array destructuring & Object destructuring
