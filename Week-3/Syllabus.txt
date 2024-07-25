@@ -23,10 +23,10 @@ Day 15
 ○ Arrow function👍
 ○ Function expression👍
 ○ What is scope? Function, Global, Block
-○ Lexical Environment or Lexical Scope
+○ Lexical Environment or Lexical Scope 
 ○ Recursion👍
 
-○ Callback function
+○ Callback function👍
 ○ IIFE or Self invoking function👍
 ○ Rest parameter👍
 

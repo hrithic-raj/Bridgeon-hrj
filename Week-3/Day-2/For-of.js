@@ -1,5 +1,5 @@
 
 const arr = [10, 20, 30, 40];
-for (let index of arr) {
-    console.log(index);  // Outputs: 10,20,30,40 the value
+for (let value of arr) {
+    console.log(value);  // Outputs: 10,20,30,40 the value
 }
