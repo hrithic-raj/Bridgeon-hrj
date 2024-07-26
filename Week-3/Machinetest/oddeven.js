@@ -3,13 +3,13 @@ function oddishOrEvenish(num) {
     num=num.toString();
     let sum=0;
     for(value of num){
-        sum+=parseInt(value)
+        sum+= Math.round(value)
     }
 	if(sum%2==0){
-		return "Evenish";
+		console.log("Evenish");
 	}
 	else{
-		return "Oddish";
+		console.log("Oddish");
 	}
 }
-oddishOrEvenish(121);
+oddishOrEvenish(122);

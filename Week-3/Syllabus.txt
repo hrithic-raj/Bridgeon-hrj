@@ -33,7 +33,43 @@ Day 15
 
 Day 16
 
-● Js object
-● What is ‘method’?
-● this keyword
+● Js object👍
+● What is ‘method’?👍
+● this keyword👍
 ● Array destructuring & Object destructuring
+
+
+Day 17
+
+● Js Math
+○ Math.round()
+○ Math.ceil()
+○ Math.floor()
+○ Math.trunc()
+○ Math.pow()
+○ Math.sign()
+○ Math.sqrt()👍
+○ Math.abs()👍
+○ Math.min() and Math.max()👍
+○ Math. random()👍
+
+● Js DOM
+
+JS HTML DOM
+DOM Intro
+DOM Methods
+DOM Document
+DOM Elements
+DOM HTML
+DOM CSS
+DOM Events
+DOM Event Listener
+
+
+Task
+
+● Bank balance checking
+
+> Input box and button for deposit
+> Input box and button for withdraw
+> A button for showing balance amount
