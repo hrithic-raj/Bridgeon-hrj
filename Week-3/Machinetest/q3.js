@@ -7,7 +7,7 @@ function koya(arr){
             if(sum==true){
                 sum=false;
             }
-            else if(sum==false){
+            else{
                 sum=true;
             }
         }
