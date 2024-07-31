@@ -6,4 +6,7 @@ let text="<ul>";
         text+="<li>" + Bikes[i] + "</li>";
     }
     text+="</ul>";
-console.log(text);
+    let str=Bikes.join("*");
+console.log(str);
+console.log(Array.isArray(Bikes));
+console.log();
