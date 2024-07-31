@@ -74,7 +74,6 @@
 //     let ar1="",ar2="";
 //     for(let i=0; i<str.length; i++){
 //      if(str.charAt(i)==str.charAt(i).toLowerCase()){
-//         // ar1.push(str.charAt(i));
 //         ar1+=str.charAt(i);
 //      }
 //      else{
@@ -124,16 +123,10 @@
 //     return flag;
 // }
 
-function hrj(arr){
-    let x='';
-    for(let y of arr){
-    if(x.indexOf(y)!==-1){
-        
+// console.log(hrj(["a", "b", "c", "d"]));
+// console.log(hrj([1,2,3,4,5,1]));
+// console.log(hrj(["p", "R", "o", "G", "r", "A", "m"]));
 
-    }
 
-    }
-}
-console.log(hrj(["a", "b", "c", "d"]));
-console.log(hrj([1,2,3,4,5,1]));
-console.log(hrj(["p", "R", "o", "G", "r", "A", "m"]));
+
+
