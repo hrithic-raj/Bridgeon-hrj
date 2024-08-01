@@ -1,0 +1,12 @@
+Day 20 to 22
+
+● Create a personal website and it must contain following sections 
+
+○ Main section (photo, name)
+○ About section
+○ Skill section
+○ Project section
+○ Contact section Send Email using HTML + JavaScript 
+
+● Setup Github and LinkedIn profile
+○ Deploy your personal website on Github

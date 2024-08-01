@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    padding: 10px 0;
+    z-index: 1000;
+    display: flex;
+}
+
+.navbar div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div a{
+    text-decoration: none;
+    color: #c8c6c6;
+}
+.nav_left a{
+    padding-left: 30px;
+}
+
+/* home */
+.gradient{
+   
+    background: url('pc7.png' ) no-repeat center center/cover;
+}
+
+#home {
+    height: 100vh;
+    background-image: linear-gradient(180deg,transparent,rgb(61, 60, 60,0.3));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 60px;
+}
+
+.home-content{
+    display:flex ;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-top: 15vh;
+    margin-left: 6vw;
+}
+
+#home h1{
+    color: #FEFEFE;
+    font-size: 90px;
+}
+#home h2{
+    color: #cac7c7;
+}
+.social-icons{
+    margin-top: 28vh;
+    margin-left: 6vw;
+}
+.social-icons a{
+    margin-right: 35px;
+}
+
+
+
+/* about */
+
+#about{
+    height: 100vh;
+    padding-top: 60px;
+    padding: 100px 20px;
+    background: url('pc4.jpg') no-repeat center center/cover;
+
+}
+
+.about_left{
+
+}
