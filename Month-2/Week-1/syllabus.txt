@@ -1,0 +1,13 @@
+# Week 1
+
+- Ternary Operators 🆗
+- JavaScript Operators 🆗
+- Array Destructuring 🆗
+- Object Destructuring 🆗
+- Fetch API 🆗
+    - Getting Data using Fetch API
+- The spread operators 🆗
+- Array methods: map, filter, reduce, forEach 🆗
+- Promises and handling Promise based methods
+- Async and Await
+- ES6 Modules and Import / export

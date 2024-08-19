@@ -1,0 +1,251 @@
+Day 1 (HTML)
+
+
+● HTML Introduction
+● HTML Basic Tags
+● HTML Headings
+● Paragraph in HTML
+● HTML Links
+● Images
+● What is an attribute?
+● Style Attribute
+● Text formatting elements
+● Lists in HTML
+○ Unordered List
+○ Ordered List
+○ Description List
+
+Tasks
+● Multi-level List Multi-level list.jpe
+
+
+Day 2
+
+● Table in html
+● Form in html
+● Div Tag
+● Id and class attribute
+● Style tag
+● Video & Audio tag
+● What is meta tag
+● Semantic and non-semantic elements
+● Inline and Block elements
+
+Tasks
+
+● Table Table.jpeg
+● Registration Form Registration Form.png
+
+
+
+Day 3 (CSS)
+
+● Introduction of CSS
+● How to (inline, internal, external)
+● CSS selectors
+○ Element selector (h1)
+○ Id selector (#name)
+○ Class selector (.name)
+○ Universal selector (*)
+○ Attribute selector ([name])
+● Color (background, text, border)
+● CSS Border
+● CSS Margin
+● Padding in CSS
+● Box Model
+● Position property in CSS
+○ Static
+○ Relative
+○ Absolute
+○ Fixed
+○ Sticky
+
+
+
+Day 4
+
+● Display property in CSS
+○ None
+○ Inline
+○ Block
+○ inline-block
+● CSS FlexBox
+● Pseudo class and Pseudo elements
+
+
+
+Day 8 (JavaScript)
+
+● Introduction of JavaScript 
+● Variables
+○ Var
+○ Let
+○ Const
+○ Using nothing
+● Js Display
+○ console.log()
+○ document.write()
+○ window.alert()
+○ innerHTML
+● Js Data Types
+○ Primitive Types
+○ Non-Primitive (Reference data types)
+● Primitive Types
+○ Number
+○ String
+○ Boolean
+○ Null
+○ Undefined
+*Technically there are two others: Symbol and BigInt
+● Operators JavaScript Operators (with Examples)
+○ Assignment operator
+○ Arithmetic operator
+○ Comparison operator
+○ Logical operator
+● If Else
+
+Tasks
+
+● If Else 5 questions
+
+
+Day 10
+
+● Typeof operator
+● Coercion or Type conversion
+● Switch case
+● Ternary Operator
+● Loop
+○ For loop
+○ While loop
+○ Do while loop
+
+Tasks
+● Pattern 5 questions
+
+
+
+Day 11
+
+● Js String
+● Js Array
+● Js Functions (understand only how to use)
+● Js Objects (understand only how to use)
+
+Tasks
+
+● Array & String 5 questions
+
+
+
+Day 12
+
+● Js String
+● Js String methods
+        • split
+        • slice
+        • substring
+        • substr
+        • toUpperCase
+        • toLowerCase
+        • concat
+        • charAt
+        •  replace
+        • trim
+        • padStart()
+        • padEnd()
+
+
+● Js String search methods
+        • indexOf()
+        • lastIndexOf()
+        • search()
+        • match()
+        • includes()
+        • startsWith()
+        • endsWith()
+
+● Template literals
+
+
+
+Day 14
+
+● Js Array
+● Js Array methods
+● Array Sort (Comaring Function)
+● For In Loop
+● For Of Loop
+● Array map
+● Array filter
+● Array reduce
+● Array forEach
+● Arrow function (Just Understand)
+
+
+
+Day 15
+
+● Js Functions
+○ Function Declaration
+○ Return keyword
+○ Parameter vs Argument○ Anonymous function
+○ Arrow function
+○ Function expression
+○ What is scope? Function, Global, Block
+○ Lexical Environment or Lexical Scope
+○ Recursion○ Callback function
+○ IIFE or Self invoking function
+○ Rest parameter
+
+
+
+Day 16
+
+● Js object
+● What is ‘method’?
+● this keyword
+● Array destructuring & Object destructuring
+
+
+
+Day 17
+
+● Js Math
+○ Math.round()
+○ Math.ceil()
+○ Math.floor()
+○ Math.trunc()
+○ Math.pow()
+○ Math.sign()
+○ Math.sqrt()
+○ Math.abs()
+○ Math.min() and Math.max()
+○ Math. random()
+
+● Js DOM
+
+JS HTML DOM
+DOM Intro
+DOM Methods
+DOM Document
+DOM Elements
+DOM HTML
+DOM CSS
+DOM Events
+DOM Event Listener
+
+
+
+Day 19 (Bootstrap)
+
+● Bootstrap introduction 
+● Color and background color
+● Margin and Padding
+● Border
+● Position
+● Text
+● Button
+● Flex
+● Grid
+● Break points

@@ -3,8 +3,11 @@ body{
     scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
-
+body::-webkit-scrollbar{
+    display: none;
+}
 /* navbar */
 
 .navbar {
@@ -12,11 +15,15 @@ body{
     top: 0;
     width: 100%;
     height: 50px;
-    background-color: transparent;
+    background-color: rgba(32, 32, 32, 0.4);
     padding: 10px 0;
     z-index: 1000;
     display: flex;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
+
 }
+
 
 .navbar div {
     list-style-type: none;
@@ -25,7 +32,7 @@ body{
 }
 div a{
     text-decoration: none;
-    color: #c8c6c6;
+    color: #e4e4e4;
 }
 .nav_left a{
     padding-left: 30px;
@@ -33,6 +40,12 @@ div a{
 .nav_right{
     display: flex;
 }
+/* hover */
+.navbar a:hover{
+    color: #01fbff;
+}
+
+
 
 /* home */
 .gradient{
@@ -89,9 +102,18 @@ div a{
 
 .h2for{
     color: rgb(199, 199, 199); 
-    font-size: 70px; 
-    text-decoration: underline;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+/* hover */
+.home-content button:hover a{
+    color: #000000;
+}
+.social-icons a:hover img{
+    opacity: 0.6;
+}
+
+
 
 /* about */
 
@@ -110,10 +132,10 @@ div a{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    width: 40vw;
 }
 
 .about_right p{
+    width: 50%;
     overflow:auto;
 }
 
@@ -143,7 +165,8 @@ div a{
 
 .progress {
     height: 20px;
-    width: 20vw;
+    /* width: 20vw; */
+    width: 400px;
     margin-top: 10px;
     background-color: #5e5b5b;
 }
@@ -192,9 +215,7 @@ div a{
     border-radius: 15px;
     box-shadow: 0px 0px 6px 2px gray;
 }
-.i-class:hover{
-    opacity: 0.5;
-}
+
 .i-r-t{
     color: rgb(185, 185, 185);
 }
@@ -205,6 +226,18 @@ div a{
     border-radius: 15px;
     margin-top: 30px;
 }
+/* hover */
+.i-class:hover{
+    opacity: 0.5;
+}
+#p_btn:hover{
+    background-color: #7ee4e6;
+}
+#p_btn:hover a{
+    color: #000000;
+}
+
+
 
 /* contactme */
 
@@ -213,8 +246,9 @@ div a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px 20px 200px 20px;
+    padding: 50px 20px 80px 20px;
     background-color: #000000;
+    
 }
 
 .t_row{
@@ -229,7 +263,7 @@ div a{
     margin-top: 30px;
 }
 
-.f_img{
+.f_imgr{
     width: 400px;
     height: 400px;
     margin: 20px 20px;
@@ -244,7 +278,7 @@ div a{
 .f_right h5{
     color: #7ee4e6;
 }
-.btn{
+.c_btn{
     background-color: #49e9ec;
     margin-top: 20px;
     margin-right: 20px;
@@ -259,29 +293,16 @@ div a{
 }
 /* hover */
 
-.navbar a:hover{
-    color: #01fbff;
-}
-.home-content button:hover a{
-    color: #000000;
-}
-.social-icons a:hover img{
-    opacity: 0.6;
-}
-#p_btn:hover{
-    background-color: #7ee4e6;
-}
-#p_btn:hover a{
-    color: #000000;
-}
+
+
+
 .btn:hover{
     background-color: #9df4f6;
 }
+
 /* responsive */
 
-@media only screen {
 
-}
 @media only screen and (max-width: 1150px){
     .bars .row{
         display: inline;
@@ -320,7 +341,14 @@ div a{
     flex-wrap: wrap;
     justify-content: center;
     width: 600px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+   }
+   .f_imgr{
+    width: 470px;
+    margin-top: 40px;
+   }
+   .form-control{
+    width: 470px;
    }
 }
 @media only screen and (max-width: 800px){
@@ -329,7 +357,7 @@ div a{
         flex-direction: column;
     }
     .progress{
-        width: 60vw;
+        /* width: 60vw; */
         margin-top: 20px;
         margin-bottom: 30px;
     }
@@ -350,7 +378,7 @@ div a{
     .f_cont{
         width: 400px;
     }
-    .f_img{
+    .f_imgr{
         width: 300px;
         height: 300px;
     }
@@ -402,19 +430,22 @@ div a{
     .h2for{
         font-size: 50px;
     }
-
+    .about_right{
+        margin-left: 20px;
+    }
 }
 
 @media only screen and (max-width: 430px){
     .f_cont{
         width: 300px;
     }
-    .f_img{
+    .f_imgr{
         width: 200px;
         height: 200px;
+        border-radius: 40px;
     }
     .form-control{
-        width: 200px;
+        width: 250px;
     }
 
 }
@@ -427,10 +458,42 @@ div a{
         width: 100px;
         margin-left: 5px;
     }
+    .social-icons a{
+        margin-right: 30px;
+    }
 }
 
 @media only screen and (max-width: 330px){
-    .cbtn{
+    #home h1{
+        font-size: 50px;
+    }
+    .nav_c{
         display: none;
     }
+    .about_right{
+        margin-left: 5px;
+    }
+    .form-control{
+        width: 200px;
+        height: 30px;
+    }
+    .f_cont{
+        width: 250px;
+    }
+    .social-icons a{
+        margin-right: 20px;
+    }
+    .emailid{
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .social-icons a{
+        margin-right: 10px;
+    }
+    .about_right{
+        margin-left: 0px;
+    }
+   
 }

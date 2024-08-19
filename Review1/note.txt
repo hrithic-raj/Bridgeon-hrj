@@ -1,0 +1,8 @@
+-pure funtion
+-diff between currying fun & clouser
+-browser memories
+-call stack
+-callback
+-obj method call
+-queues in a call
+-

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body{
+            background-image:url("pc2.jpg");
+            margin: 0;
+            text-align: center;
+            margin-top: 200px;
+            background-size: cover;
+        }
+        .main{
+            margin: 0;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .first{
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .second{
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn{
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            border: 0px;
+        }
+        .text{
+            color: aqua;
+            margin-bottom: 100px;
+        }
+        .c_btn{
+            display: flex;
+            column-gap: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text" class="text">The text</h1>
+    <div class="main">
+        <div id="first" class="first" onclick="firstfun()">
+            <h4>Create new Text</h4>
+        </div>
+        <div class="c_btn">
+            <button id="modify" class="btn">Modify text</button>
+            <button id="bg" class="btn">Change BG</button>
+        </div>
+        <div id="second" class="second" onclick="secondfun()">
+            <h4>Delete new Text</h4>
+        </div>
+    </div>
+    <script src="dom.js"></script>
+</body>
+</html>
