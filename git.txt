@@ -1,0 +1,96 @@
+git add --all                                                //add all for commit
+git commit -m "commit name"                                  //commit
+git add remote <remote-name> <url>                           //add remote repo
+git remote -v                                                //see all remote repo
+git remote rename old new                                    //rename remote repo
+git remote set-url <remote-name> <new-url>                   //change url
+
+
+
+
+1. Getting Started
+
+git init: Initialize a new Git repository.
+git clone <url>: Clone a repository from a remote URL.
+
+2. Basic Snapshotting
+
+git add <file>: Stage a file for commit.
+git add .: Stage all changes in the current directory for commit.
+git commit -m "message": Commit the staged changes with a message.
+git status: Show the status of the working directory and the staging area.
+git diff: Show changes between working directory and the staging area.
+git diff --staged: Show changes between the staging area and the last commit.
+git reset <file>: Unstage a file, keeping the changes in the working directory.
+git rm <file>: Remove a file from the working directory and staging area.
+git mv <old-name> <new-name>: Rename or move a file.
+
+3. Branching and Merging
+
+git branch: List all branches.
+git branch <branch-name>: Create a new branch.
+git checkout <branch-name>: Switch to another branch.
+git checkout -b <branch-name>: Create and switch to a new branch.
+git merge <branch-name>: Merge a branch into the current branch.
+git branch -d <branch-name>: Delete a branch (if merged).
+git branch -D <branch-name>: Force delete a branch.
+git log --graph --oneline --all: Show a visual representation of branches.
+
+4. Remote Repositories
+
+git remote -v: Show the URLs of remote repositories.
+git remote add <name> <url>: Add a new remote repository.
+git remote remove <name>: Remove a remote repository.
+git remote rename <old-name> <new-name>: Rename a remote repository.
+git fetch <remote>: Download objects and refs from another repository.
+git pull <remote> <branch>: Fetch from and integrate with another repository or local branch.
+git push <remote> <branch>: Push your branch to the remote repository.
+git push -u <remote> <branch>: Push the branch and set it as the upstream branch.
+
+5. Inspection and Comparison
+
+git log: Show commit logs.
+git log --oneline: Show commit logs in a compact, one-line format.
+git show <commit>: Show various types of objects (e.g., a commit).
+git diff <commit1> <commit2>: Show changes between two commits.
+git blame <file>: Show what revision and author last modified each line of a file.
+git tag: List all tags.
+git tag <tagname>: Create a new tag.
+git describe --tags: Describe the current commit using the most recent tag.
+
+6. Undoing Changes
+
+git reset <commit>: Reset the current branch to a previous commit.
+git reset --hard <commit>: Reset the current branch to a previous commit, discarding all changes.
+git revert <commit>: Revert a commit by creating a new commit that undoes the changes.
+git clean -f: Remove untracked files from the working directory.
+git stash: Temporarily save changes that are not ready to be committed.
+git stash pop: Reapply the stashed changes and remove them from the stash.
+git stash apply: Reapply the stashed changes but keep them in the stash.
+
+7. Collaboration
+
+git pull: Fetch changes from a remote repository and merge them into the current branch.
+git push: Push changes to a remote repository.
+git push --force: Force push changes to a remote repository.
+git rebase <branch>: Reapply commits on top of another base branch.
+git cherry-pick <commit>: Apply the changes from a specific commit onto the current branch.
+
+8. Advanced Commands
+
+git bisect: Use binary search to find the commit that introduced a bug.
+git reflog: Show a log of changes to the local repository’s HEAD.
+git submodule: Initialize, update, or inspect submodules.
+git archive: Create a tar or zip archive of the repository files.
+
+9. Configuration
+
+git config --global user.name "Your Name": Set the global username.
+git config --global user.email "you@example.com": Set the global email.
+git config --global color.ui auto: Enable colored Git output.
+git config --list: List all Git configurations.
+10. GitHub-Specific Commands
+gh repo clone <repository>: Clone a repository (requires GitHub CLI).
+gh repo fork: Fork a repository on GitHub.
+gh issue list: List issues in a GitHub repository.
+gh pr create: Create a new pull request.

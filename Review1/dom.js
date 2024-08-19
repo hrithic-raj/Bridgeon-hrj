@@ -22,6 +22,7 @@ function firstfun(){
     let newtext = document.createElement('h1')
     newtext.textContent="New Text";
     newtext.setAttribute('class','text');
+    newtext.setAttribute('id','newtext');
     body.appendChild(newtext);
 }
 function secondfun(){
@@ -35,8 +36,12 @@ function secondfun(){
     }
     
     //delete text
-
-        
+    let newtext1=document.getElementById('newtext');
+    if(newtext1){
+        body.removeChild(newtext1);
+    }else{
+        alert("No element to delete")
+    }
 }
 
 //modify text
