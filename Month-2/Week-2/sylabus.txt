@@ -1,0 +1,12 @@
+Week 1
+
+Day 2 (Getting Started with React)
+
+- React, a short Introduction                                               |  [Fireship Youtube](https://www.youtube.com/watch?v=Tn6-PIqc4UM&ab_channel=Fireship)
+- Installing and Setting up a react environment in VS Code                  | [YouTube](https://www.youtube.com/watch?v=dwr24ujE8lY&ab_channel=NihiraTechiees)
+- React Folder Structure                                                    | [Code Evolution](https://www.youtube.com/watch?v=9VIiLJL0H4Y&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=3&ab_channel=Codevolution)
+- Components                                                                | [Code Evolution](https://www.youtube.com/watch?v=Y2hgEGPzTZY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=4&ab_channel=Codevolution)
+- What is JSX                                                               | [Code Evolution](https://www.youtube.com/watch?v=7fPXI_MnBOY&ab_channel=Codevolution)
+- Functional Components                                                     | [Code Evolution](https://www.youtube.com/watch?v=Cla1WwguArA&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=5&ab_channel=Codevolution) | [React Docs](https://react.dev/learn#components)
+- Class Components (Good to Know but not necessary)
+- Virtual Dom in React
