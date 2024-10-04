@@ -1,12 +1,32 @@
-Week 1
+React Week - I
 
-Day 2 (Getting Started with React)
-
-- React, a short Introduction                                               |  [Fireship Youtube](https://www.youtube.com/watch?v=Tn6-PIqc4UM&ab_channel=Fireship)
-- Installing and Setting up a react environment in VS Code                  | [YouTube](https://www.youtube.com/watch?v=dwr24ujE8lY&ab_channel=NihiraTechiees)
-- React Folder Structure                                                    | [Code Evolution](https://www.youtube.com/watch?v=9VIiLJL0H4Y&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=3&ab_channel=Codevolution)
-- Components                                                                | [Code Evolution](https://www.youtube.com/watch?v=Y2hgEGPzTZY&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=4&ab_channel=Codevolution)
-- What is JSX                                                               | [Code Evolution](https://www.youtube.com/watch?v=7fPXI_MnBOY&ab_channel=Codevolution)
-- Functional Components                                                     | [Code Evolution](https://www.youtube.com/watch?v=Cla1WwguArA&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&index=5&ab_channel=Codevolution) | [React Docs](https://react.dev/learn#components)
+- React, a short Introduction 
+- Installing and Setting up a react environment in VS Code 
+- React Folder Structure  
+- Components           
+- What is JSX  
+- Functional Components                                                     
 - Class Components (Good to Know but not necessary)
 - Virtual Dom in React
+
+- What is hooks?
+- useState 
+- What is props? 
+- State vs Props 
+- Conditional Rendering
+
+- List and Keys
+- Event Handling 
+- Multiple Ways of Fetching Events
+- useRef 
+- useEffect
+
+- Previous state in useState
+- Form Validation
+- CSS Styling in React
+- React Bootstrap
+
+
+- React Strict Mode
+- React Component Composition 
+- React Fragment

@@ -6,6 +6,19 @@ git remote rename old new                                    //rename remote rep
 git remote set-url <remote-name> <new-url>                   //change url
 
 
+// For Clone, Push and Pull the changes :-
+
+=> git clone https://github.com/yourusername/project-test.git  //clone
+
+=> cd project-test
+
+=> git push origin master // add, commit and push the changes (the remote repo default name - origin)
+
+=> git pull origin master // pull the changes in another system
+
+
+
+##  All Commands  ##
 
 
 1. Getting Started

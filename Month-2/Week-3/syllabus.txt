@@ -1,0 +1,20 @@
+React Week - II
+
+- useReducer
+- JSON-Server
+- pagination(JSON-Server)
+- POST, PUT, PATCH, DELETE, GET(JSON-Server)
+- axios
+
+- useContext
+- custom hooks
+- Lazy loading
+
+
+- React.memo
+- useCallback
+- useMemo
+- Local Storage
+- Higher order component
+
+- React Router dom

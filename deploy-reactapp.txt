@@ -1,0 +1,13 @@
+create react apply
+in package.json 
+  - "homepage": "https://hrithic-raj.github.io/<repo name>.git", //add this
+npm install --save gh-pages
+in package.json 
+  - "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", //add these two in scripts
+git init
+add remote url with repo name "origin"
+git add . 
+git commit -m "deploy"
+push origin to master
+npm run deploy
